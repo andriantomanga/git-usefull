@@ -23,3 +23,15 @@ git config --global alias.rv 'remote -v'
 
 git config --global alias.d 'diff'
 git config --global alias.dv 'difftool -t vimdiff -y'
+
+7. Git config list 
+
+git config --global alias.gl 'config --global -l' 
+
+8. Git search 
+
+git config --global alias.se '!git rev-list --all | xargs git grep -F'
+
+Git checkout 
+
+git config --global alias.co checkout 
