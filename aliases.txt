@@ -1,0 +1,25 @@
+
+1. Status 
+
+git config --global alias.st 'status -sb'
+
+2. Log 
+
+git config --global alias.ll 'log --oneline'
+
+3. Last commit 
+
+git config --global alias.last 'log -1 HEAD --stat'
+
+4. Commit 
+
+git config --global alias.cm 'commit -m'
+
+5. Git remote 
+
+git config --global alias.rv 'remote -v'
+
+6. Git diff
+
+git config --global alias.d 'diff'
+git config --global alias.dv 'difftool -t vimdiff -y'
