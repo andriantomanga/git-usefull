@@ -25,5 +25,5 @@ git config --global alias.ci commit
 
 git config --global alias.todo-list "! git grep --extended-regexp -I --line-number --count 'TODO|FIXME'"
 
-# Mes commits du mois (CRA)
+// mes commits du mois
 git log --author="Andriantomanga NABIL" --since="$(date +%Y-%m-01)" --format="%h %s"
