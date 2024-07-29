@@ -1,4 +1,4 @@
-# Alias Git et Commandes Utiles
+# Alias Git et quelques Commandes Utiles
 
 ## Configuration des Alias Git
 
