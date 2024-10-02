@@ -45,3 +45,7 @@
 
 - `git log --author="Andriantomanga NABIL" --since="$(date +%Y-%m-01)" --format="%h %s"`
   - Affiche les commits de l'auteur spécifié depuis le début du mois.
+
+ ## git got
+- git config --global alias.got "log --oneline --graph --decorate --all"
+
